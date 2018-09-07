@@ -163,7 +163,7 @@ class Serializer {
             return Base64.encodeToString(bytes, Base64.NO_WRAP);
         }
         catch (IOException e) {
-            return "";
+            return null;
         }
     }
 
